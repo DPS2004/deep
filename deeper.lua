@@ -44,6 +44,9 @@ function deeper.init()
       return nil
     end
 
+    i = helpers.round(i,true)
+    
+
     local arg = { ... }
 
     if i < deepinst.minIndex then
